@@ -1,0 +1,888 @@
+<mxfile host="Electron" modified="2024-05-10T02:54:08.882Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.7.5 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" etag="D18skjSH63bRFgw9g94z" version="21.7.5" type="device" pages="4">
+  <diagram name="처음 화상미팅" id="f1b7ffb7-ca1e-a977-7cf5-a751b3c06c05">
+    <mxGraphModel dx="1418" dy="3600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object c4Type="VPN" c4Container="VPN" c4Technology="전용망" c4Description="서울과 대구간 내부망 통신" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" placeholders="1" id="sn0T0VtG4TVqbzOCgWWW-5">
+          <mxCell style="shape=cylinder3;size=15;direction=south;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=1;shadow=1;" parent="1" vertex="1">
+            <mxGeometry x="360" y="-2175" width="240" height="90" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="WEB" c4Type="SystemScopeBoundary" c4Application="DMZ" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="JYOq8uLHcJOpnt7pmYKA-90">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];gradientColor=#7ea6e0;shadow=1;" parent="1" vertex="1">
+            <mxGeometry x="660" y="-2380" width="230" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="JYOq8uLHcJOpnt7pmYKA-61" value="공원연금공단 - 대구" style="swimlane;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="70" y="-2420" width="260" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="JYOq8uLHcJOpnt7pmYKA-64" value="망연계" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" parent="JYOq8uLHcJOpnt7pmYKA-61" vertex="1">
+          <mxGeometry x="20" y="165" width="220" height="60" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="WEB" c4Type="SystemScopeBoundary" c4Application="DMZ" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="JYOq8uLHcJOpnt7pmYKA-89">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];gradientColor=#7ea6e0;shadow=1;" parent="JYOq8uLHcJOpnt7pmYKA-61" vertex="1">
+            <mxGeometry x="20" y="40" width="220" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="JYOq8uLHcJOpnt7pmYKA-66" value="FILE" style="rounded=1;whiteSpace=wrap;html=1;" parent="JYOq8uLHcJOpnt7pmYKA-61" vertex="1">
+          <mxGeometry x="146" y="70" width="70" height="40" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="WAS" c4Type="SystemScopeBoundary" c4Application="내부망" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="JYOq8uLHcJOpnt7pmYKA-92">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#f8cecc;strokeColor=#b85450;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];gradientColor=#ea6b66;shadow=1;glass=0;" parent="JYOq8uLHcJOpnt7pmYKA-61" vertex="1">
+            <mxGeometry x="20" y="240" width="220" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="JYOq8uLHcJOpnt7pmYKA-68" value="AGENT" style="rounded=1;whiteSpace=wrap;html=1;" parent="JYOq8uLHcJOpnt7pmYKA-61" vertex="1">
+          <mxGeometry x="45" y="260" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JYOq8uLHcJOpnt7pmYKA-65" value="FILE" style="rounded=1;whiteSpace=wrap;html=1;" parent="JYOq8uLHcJOpnt7pmYKA-61" vertex="1">
+          <mxGeometry x="145" y="260" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JYOq8uLHcJOpnt7pmYKA-67" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;" parent="JYOq8uLHcJOpnt7pmYKA-61" source="JYOq8uLHcJOpnt7pmYKA-65" target="JYOq8uLHcJOpnt7pmYKA-66" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="270" as="sourcePoint" />
+            <mxPoint x="400" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JYOq8uLHcJOpnt7pmYKA-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="JYOq8uLHcJOpnt7pmYKA-66" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="-2235" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="350" y="-2330" />
+              <mxPoint x="350" y="-2530" />
+              <mxPoint x="410" y="-2530" />
+            </Array>
+            <mxPoint x="410" y="-2530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JYOq8uLHcJOpnt7pmYKA-70" value="공원연금공단 -&amp;nbsp; 서울" style="swimlane;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="640" y="-2420" width="270" height="370" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="WAS" c4Type="SystemScopeBoundary" c4Application="내부망" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="JYOq8uLHcJOpnt7pmYKA-93">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#f8cecc;strokeColor=#b85450;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];gradientColor=#ea6b66;shadow=1;" parent="JYOq8uLHcJOpnt7pmYKA-70" vertex="1">
+            <mxGeometry x="20" y="246" width="230" height="104" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="JYOq8uLHcJOpnt7pmYKA-76" value="망연계" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" parent="JYOq8uLHcJOpnt7pmYKA-70" vertex="1">
+          <mxGeometry x="20" y="175" width="230" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="JYOq8uLHcJOpnt7pmYKA-75" value="AGENT" style="rounded=1;whiteSpace=wrap;html=1;" parent="JYOq8uLHcJOpnt7pmYKA-70" vertex="1">
+          <mxGeometry x="50" y="266" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JYOq8uLHcJOpnt7pmYKA-74" value="FILE" style="rounded=1;whiteSpace=wrap;html=1;" parent="JYOq8uLHcJOpnt7pmYKA-70" vertex="1">
+          <mxGeometry x="150" y="266" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sn0T0VtG4TVqbzOCgWWW-10" value="IP_SEC" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;swimlaneFillColor=#D5E8D4;shadow=0;" parent="JYOq8uLHcJOpnt7pmYKA-70" vertex="1">
+          <mxGeometry x="82" y="50" width="138" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JYOq8uLHcJOpnt7pmYKA-91" value="FILE" style="rounded=1;whiteSpace=wrap;html=1;" parent="JYOq8uLHcJOpnt7pmYKA-70" vertex="1">
+          <mxGeometry x="142" y="75" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JYOq8uLHcJOpnt7pmYKA-77" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.614;entryY=0.975;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;entryPerimeter=0;" parent="JYOq8uLHcJOpnt7pmYKA-70" source="JYOq8uLHcJOpnt7pmYKA-74" target="JYOq8uLHcJOpnt7pmYKA-91" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="270" as="sourcePoint" />
+            <mxPoint x="242" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JYOq8uLHcJOpnt7pmYKA-79" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;exitPerimeter=0;" parent="1" source="sn0T0VtG4TVqbzOCgWWW-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="-2130" as="sourcePoint" />
+            <mxPoint x="670" y="-2130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JYOq8uLHcJOpnt7pmYKA-80" value="NCLOUD" style="swimlane;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+          <mxGeometry x="390" y="-2630" width="200" height="160" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="PSM" c4Type="SystemScopeBoundary" c4Application="EASYCERTI" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="sn0T0VtG4TVqbzOCgWWW-23">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];gradientColor=#7ea6e0;gradientDirection=radial;glass=0;shadow=1;" parent="JYOq8uLHcJOpnt7pmYKA-80" vertex="1">
+            <mxGeometry x="20" y="45" width="160" height="90" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="JYOq8uLHcJOpnt7pmYKA-83" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;strokeColor=#DB2843;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="335" y="-2490" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sn0T0VtG4TVqbzOCgWWW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="sn0T0VtG4TVqbzOCgWWW-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="-2530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="-2310" />
+              <mxPoint x="630" y="-2530" />
+              <mxPoint x="570" y="-2530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sn0T0VtG4TVqbzOCgWWW-13" value="" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="370" y="-2458" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sn0T0VtG4TVqbzOCgWWW-15" value="&lt;h1&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Socket 사용불가&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;- socket 통신은 국정원 권고사항 아님.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- IP-SEC으로 설치하길 원함.&lt;/b&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;glass=0;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="380" y="-2441" width="220" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="sn0T0VtG4TVqbzOCgWWW-16" value="SOCKET" style="html=1;shadow=1;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DB2843;strokeWidth=3;fillColor=none;fontColor=#DB2843;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=16;spacing=5;" parent="1" vertex="1">
+          <mxGeometry x="240" y="-2495" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sn0T0VtG4TVqbzOCgWWW-17" value="IP-SEC" style="html=1;shadow=1;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#33A64C;strokeWidth=3;fillColor=none;fontColor=#33A64C;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=16;spacing=5;" parent="1" vertex="1">
+          <mxGeometry x="667" y="-2490" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sn0T0VtG4TVqbzOCgWWW-21" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeWidth=4;strokeColor=#33A64C;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="-2490" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sn0T0VtG4TVqbzOCgWWW-24" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px; font-size: 16px;&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px; line-height: 170%; font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 16px;&quot;&gt;국민연금공단&lt;/span&gt;&lt;div style=&quot;line-height: 170%; font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 16px;&quot;&gt;- PSM-CLOUD 구성도&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=260;height=60;align=left;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#B5739D;fontStyle=1;fontSize=16;fontFamily=Georgia;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-2730" width="890" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="sn0T0VtG4TVqbzOCgWWW-25" value="&lt;br&gt;&lt;ul&gt;&lt;li&gt;2024.03.07 FRI 화상미팅&lt;/li&gt;&lt;li&gt;15:00-16:00&lt;/li&gt;&lt;li&gt;R&amp;amp;D센터/데이터보호연구소&lt;/li&gt;&lt;li&gt;박경일 선임 연구원&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-2670" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JYOq8uLHcJOpnt7pmYKA-78" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="sn0T0VtG4TVqbzOCgWWW-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="-2130" as="sourcePoint" />
+            <mxPoint x="434.96000000000004" y="-2030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="KFc_OT6yCtbl_pWDJLbf" name="상록회관구축-네트워크">
+    <mxGraphModel dx="1418" dy="3600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object c4Type="VPN" c4Container="VPN" c4Technology="전용망" c4Description="서울과 대구간 내부망 통신" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" placeholders="1" id="8rLBXrFmklSE0GYavLGi-1">
+          <mxCell style="shape=cylinder3;size=15;direction=south;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=1;shadow=1;" parent="1" vertex="1">
+            <mxGeometry x="573" y="-2055" width="277" height="260" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="8rLBXrFmklSE0GYavLGi-3" value="서울 Region" style="swimlane;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;rounded=1;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="70" y="-2450" width="470" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="8rLBXrFmklSE0GYavLGi-4" value="망연계" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" parent="8rLBXrFmklSE0GYavLGi-3" vertex="1">
+          <mxGeometry x="19" y="233" width="431" height="60" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="WEB" c4Type="SystemScopeBoundary" c4Application="DMZ" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="8rLBXrFmklSE0GYavLGi-5">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];gradientColor=#7ea6e0;shadow=1;" parent="8rLBXrFmklSE0GYavLGi-3" vertex="1">
+            <mxGeometry x="20" y="40" width="430" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="내부망" c4Type="SystemScopeBoundary" c4Application="내부망" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="8rLBXrFmklSE0GYavLGi-7">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#fff2cc;strokeColor=#d6b656;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;gradientColor=#FAFAFA;gradientDirection=east;" parent="8rLBXrFmklSE0GYavLGi-3" vertex="1">
+            <mxGeometry x="19" y="308" width="431" height="390" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="개인정보처리시스템-01" c4Type="SystemScopeBoundary" c4Application="WAS" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="rPlka9k88o62n_DQ6prK-1">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#f0a30a;strokeColor=#BD7000;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;fontColor=#000000;gradientColor=#fafafa;gradientDirection=north;" parent="8rLBXrFmklSE0GYavLGi-3" vertex="1">
+            <mxGeometry x="35" y="325" width="190" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="8rLBXrFmklSE0GYavLGi-8" value="AGENT" style="rounded=1;whiteSpace=wrap;html=1;" parent="8rLBXrFmklSE0GYavLGi-3" vertex="1">
+          <mxGeometry x="49" y="340" width="90" height="40" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="개인정보처리시스템-02" c4Type="SystemScopeBoundary" c4Application="WAS" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="rPlka9k88o62n_DQ6prK-4">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#f0a30a;strokeColor=#BD7000;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;fontColor=#000000;gradientColor=#fafafa;gradientDirection=north;" parent="8rLBXrFmklSE0GYavLGi-3" vertex="1">
+            <mxGeometry x="35" y="455" width="190" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="rPlka9k88o62n_DQ6prK-5" value="AGENT" style="rounded=1;whiteSpace=wrap;html=1;" parent="8rLBXrFmklSE0GYavLGi-3" vertex="1">
+          <mxGeometry x="49" y="470" width="90" height="40" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="수집시스템" c4Type="SystemScopeBoundary" c4Application="Collector" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="rPlka9k88o62n_DQ6prK-8">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#fa6800;strokeColor=#C73500;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;fontColor=#000000;gradientDirection=north;gradientColor=#FAFAFA;strokeWidth=1;" parent="8rLBXrFmklSE0GYavLGi-3" vertex="1">
+            <mxGeometry x="317" y="323" width="110" height="325" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="rPlka9k88o62n_DQ6prK-9" value="FILE" style="rounded=1;whiteSpace=wrap;html=1;" parent="8rLBXrFmklSE0GYavLGi-3" vertex="1">
+          <mxGeometry x="336" y="343" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-10" value="FILE" style="rounded=1;whiteSpace=wrap;html=1;" parent="8rLBXrFmklSE0GYavLGi-3" vertex="1">
+          <mxGeometry x="336" y="393" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-22" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;" parent="8rLBXrFmklSE0GYavLGi-3" vertex="1">
+          <mxGeometry x="110" y="584" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-23" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;" parent="8rLBXrFmklSE0GYavLGi-3" vertex="1">
+          <mxGeometry x="110" y="604" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-24" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;" parent="8rLBXrFmklSE0GYavLGi-3" vertex="1">
+          <mxGeometry x="110" y="625" width="20" height="20" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="중계시스템" c4Type="SystemScopeBoundary" c4Application="Repeater" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="rPlka9k88o62n_DQ6prK-94">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#0050ef;strokeColor=#001DBC;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;fontColor=#ffffff;gradientDirection=north;gradientColor=#FAFAFA;" parent="8rLBXrFmklSE0GYavLGi-3" vertex="1">
+            <mxGeometry x="139" y="60" width="290" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="rPlka9k88o62n_DQ6prK-95" value="FILE" style="rounded=1;whiteSpace=wrap;html=1;" parent="8rLBXrFmklSE0GYavLGi-3" vertex="1">
+          <mxGeometry x="158" y="80" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-96" value="FILE" style="rounded=1;whiteSpace=wrap;html=1;" parent="8rLBXrFmklSE0GYavLGi-3" vertex="1">
+          <mxGeometry x="243" y="80" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-97" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;" parent="8rLBXrFmklSE0GYavLGi-3" vertex="1">
+          <mxGeometry x="329" y="90" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-98" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;" parent="8rLBXrFmklSE0GYavLGi-3" vertex="1">
+          <mxGeometry x="353" y="90" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-99" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;" parent="8rLBXrFmklSE0GYavLGi-3" vertex="1">
+          <mxGeometry x="377" y="90" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8rLBXrFmklSE0GYavLGi-21" value="CSP ( Cloud Service Provider )" style="swimlane;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;rounded=1;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="600" y="-2650" width="240" height="160" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="PSM" c4Type="SystemScopeBoundary" c4Application="EASYCERTI" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="8rLBXrFmklSE0GYavLGi-22">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];gradientColor=#7ea6e0;gradientDirection=radial;glass=0;shadow=1;" parent="8rLBXrFmklSE0GYavLGi-21" vertex="1">
+            <mxGeometry x="39" y="43.5" width="160" height="90" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="8rLBXrFmklSE0GYavLGi-30" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px; font-size: 16px;&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px; line-height: 170%; font-size: 16px;&quot;&gt;NIA DATA&amp;nbsp; 확산사업&lt;br&gt;&lt;div style=&quot;line-height: 170%; font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 16px;&quot;&gt;- PSM-CLOUD 구성도&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=260;height=60;align=left;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#B5739D;fontStyle=1;fontSize=16;fontFamily=Georgia;rounded=1;shadow=1;swimlaneFillColor=none;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-2730" width="1340" height="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-25" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="-2004" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-26" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="-1984" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-27" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="-1963" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-72" value="대구 Region" style="swimlane;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;rounded=1;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="873" y="-2450" width="470" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-73" value="망연계" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" parent="rPlka9k88o62n_DQ6prK-72" vertex="1">
+          <mxGeometry x="19" y="233" width="431" height="60" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="내부망" c4Type="SystemScopeBoundary" c4Application="내부망" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="rPlka9k88o62n_DQ6prK-75">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;gradientColor=#FAFAFA;gradientDirection=west;" parent="rPlka9k88o62n_DQ6prK-72" vertex="1">
+            <mxGeometry x="19" y="308" width="431" height="390" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="개인정보처리시스템-01" c4Type="SystemScopeBoundary" c4Application="WAS" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="rPlka9k88o62n_DQ6prK-76">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#f0a30a;strokeColor=#BD7000;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;fontColor=#000000;gradientColor=#fafafa;gradientDirection=north;" parent="rPlka9k88o62n_DQ6prK-72" vertex="1">
+            <mxGeometry x="241" y="325" width="190" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="rPlka9k88o62n_DQ6prK-77" value="AGENT" style="rounded=1;whiteSpace=wrap;html=1;" parent="rPlka9k88o62n_DQ6prK-72" vertex="1">
+          <mxGeometry x="255" y="340" width="90" height="40" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="개인정보처리시스템-02" c4Type="SystemScopeBoundary" c4Application="WAS" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="rPlka9k88o62n_DQ6prK-78">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#f0a30a;strokeColor=#BD7000;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;fontColor=#000000;gradientColor=#fafafa;gradientDirection=north;" parent="rPlka9k88o62n_DQ6prK-72" vertex="1">
+            <mxGeometry x="241" y="455" width="190" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="rPlka9k88o62n_DQ6prK-79" value="AGENT" style="rounded=1;whiteSpace=wrap;html=1;" parent="rPlka9k88o62n_DQ6prK-72" vertex="1">
+          <mxGeometry x="255" y="470" width="90" height="40" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="수집시스템" c4Type="SystemScopeBoundary" c4Application="Collector" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="rPlka9k88o62n_DQ6prK-80">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#fa6800;strokeColor=#C73500;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;fontColor=#000000;gradientDirection=north;gradientColor=#FAFAFA;strokeWidth=1;" parent="rPlka9k88o62n_DQ6prK-72" vertex="1">
+            <mxGeometry x="41" y="323" width="110" height="325" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="rPlka9k88o62n_DQ6prK-81" value="FILE" style="rounded=1;whiteSpace=wrap;html=1;" parent="rPlka9k88o62n_DQ6prK-72" vertex="1">
+          <mxGeometry x="60" y="343" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-82" value="FILE" style="rounded=1;whiteSpace=wrap;html=1;" parent="rPlka9k88o62n_DQ6prK-72" vertex="1">
+          <mxGeometry x="60" y="393" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-83" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;" parent="rPlka9k88o62n_DQ6prK-72" vertex="1">
+          <mxGeometry x="316" y="584" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-84" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;" parent="rPlka9k88o62n_DQ6prK-72" vertex="1">
+          <mxGeometry x="316" y="604" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-85" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;" parent="rPlka9k88o62n_DQ6prK-72" vertex="1">
+          <mxGeometry x="316" y="625" width="20" height="20" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="WEB" c4Type="SystemScopeBoundary" c4Application="DMZ" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="rPlka9k88o62n_DQ6prK-102">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];gradientColor=#7ea6e0;shadow=1;" parent="rPlka9k88o62n_DQ6prK-72" vertex="1">
+            <mxGeometry x="19" y="40" width="430" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="rPlka9k88o62n_DQ6prK-18" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=4;shape=mxgraph.lean_mapping.batched_kanban;rotation=180;direction=west;flipH=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="485" y="-1885" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-86" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="959" y="-2004" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-87" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="959" y="-1984" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-88" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="959" y="-1963" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-101" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=3;shape=mxgraph.lean_mapping.batched_kanban;rotation=180;direction=south;flipH=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="-2287" width="80" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-104" value="" style="shape=filledEdge;curved=0;rounded=1;fixDash=1;endArrow=none;strokeWidth=10;fillColor=#ffffff;edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" edge="1">
+          <mxGeometry width="60" height="40" relative="1" as="geometry">
+            <mxPoint x="540" y="-2340" as="sourcePoint" />
+            <mxPoint x="600" y="-2570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="-2340" />
+              <mxPoint x="570" y="-2570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-106" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=1;endSize=8;startSize=8;strokeWidth=4;fillColor=#0050ef;strokeColor=#001DBC;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="-2340" as="sourcePoint" />
+            <mxPoint x="640" y="-2570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-107" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=4;" parent="1" source="8rLBXrFmklSE0GYavLGi-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="-2030" as="sourcePoint" />
+            <mxPoint x="410" y="-2090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-108" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=4;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="-1961" as="sourcePoint" />
+            <mxPoint x="411" y="-1961" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-109" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=4;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="207" y="-1858" as="sourcePoint" />
+            <mxPoint x="408" y="-1858" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-110" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=4;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1130" y="-2090" as="sourcePoint" />
+            <mxPoint x="995.9999999999991" y="-2090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-113" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=4;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1130" y="-1959" as="sourcePoint" />
+            <mxPoint x="995.9999999999991" y="-1959" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPlka9k88o62n_DQ6prK-114" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=4;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1131" y="-1860" as="sourcePoint" />
+            <mxPoint x="996.9999999999991" y="-1860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="대구센터구축-네트워크" id="KWEvAsvYT_9i5Tmhrc-X">
+    <mxGraphModel dx="1418" dy="3600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
+      <root>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-0" />
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-1" parent="gvd6-eIm7HliN0uxU8-W-0" />
+        <object c4Type="VPN" c4Container="VPN" c4Technology="전용망" c4Description="서울과 대구간 내부망 통신" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" placeholders="1" id="gvd6-eIm7HliN0uxU8-W-2">
+          <mxCell style="shape=cylinder3;size=15;direction=south;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;labelBackgroundColor=none;fillColor=#dae8fc;fontSize=12;align=center;strokeColor=#6c8ebf;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=1;shadow=1;" parent="gvd6-eIm7HliN0uxU8-W-1" vertex="1">
+            <mxGeometry x="573" y="-2055" width="277" height="260" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-3" value="공무원 연금공단 서울 Region" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;rounded=1;strokeWidth=4;labelBackgroundColor=none;shadow=1;swimlaneLine=1;" parent="gvd6-eIm7HliN0uxU8-W-1" vertex="1">
+          <mxGeometry x="70" y="-2450" width="470" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-4" value="망연계" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;labelBackgroundColor=none;fillColor=#fad9d5;strokeColor=#ae4132;shadow=1;swimlaneLine=1;" parent="gvd6-eIm7HliN0uxU8-W-3" vertex="1">
+          <mxGeometry x="19" y="233" width="431" height="60" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="WEB" c4Type="SystemScopeBoundary" c4Application="DMZ" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="gvd6-eIm7HliN0uxU8-W-5">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#fad9d5;strokeColor=#ae4132;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;swimlaneLine=1;" parent="gvd6-eIm7HliN0uxU8-W-3" vertex="1">
+            <mxGeometry x="20" y="40" width="430" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="내부망" c4Type="SystemScopeBoundary" c4Application="내부망" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="gvd6-eIm7HliN0uxU8-W-6">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#fad9d5;strokeColor=#ae4132;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;gradientDirection=east;swimlaneLine=1;" parent="gvd6-eIm7HliN0uxU8-W-3" vertex="1">
+            <mxGeometry x="19" y="308" width="431" height="390" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="개인정보처리시스템-01" c4Type="SystemScopeBoundary" c4Application="WAS" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="gvd6-eIm7HliN0uxU8-W-7">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#fad9d5;strokeColor=#ae4132;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;gradientDirection=north;swimlaneLine=1;" parent="gvd6-eIm7HliN0uxU8-W-3" vertex="1">
+            <mxGeometry x="35" y="325" width="190" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-8" value="AGENT" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fad9d5;strokeColor=#ae4132;shadow=1;swimlaneLine=1;" parent="gvd6-eIm7HliN0uxU8-W-3" vertex="1">
+          <mxGeometry x="49" y="340" width="90" height="40" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="개인정보처리시스템-02" c4Type="SystemScopeBoundary" c4Application="WAS" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="gvd6-eIm7HliN0uxU8-W-9">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#fad9d5;strokeColor=#ae4132;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;gradientDirection=north;swimlaneLine=1;" parent="gvd6-eIm7HliN0uxU8-W-3" vertex="1">
+            <mxGeometry x="35" y="455" width="190" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-10" value="AGENT" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fad9d5;strokeColor=#ae4132;shadow=1;swimlaneLine=1;" parent="gvd6-eIm7HliN0uxU8-W-3" vertex="1">
+          <mxGeometry x="49" y="470" width="90" height="40" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="수집시스템" c4Type="SystemScopeBoundary" c4Application="Collector" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="gvd6-eIm7HliN0uxU8-W-11">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#FAE5C7;strokeColor=#0F8B8D;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;gradientDirection=north;strokeWidth=1;swimlaneLine=1;" parent="gvd6-eIm7HliN0uxU8-W-3" vertex="1">
+            <mxGeometry x="317" y="323" width="110" height="325" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-12" value="FILE" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;shadow=1;swimlaneLine=1;" parent="gvd6-eIm7HliN0uxU8-W-3" vertex="1">
+          <mxGeometry x="336" y="343" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-13" value="FILE" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;shadow=1;swimlaneLine=1;" parent="gvd6-eIm7HliN0uxU8-W-3" vertex="1">
+          <mxGeometry x="336" y="393" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-14" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#fad9d5;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#ae4132;shadow=1;swimlaneLine=1;" parent="gvd6-eIm7HliN0uxU8-W-3" vertex="1">
+          <mxGeometry x="110" y="584" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-15" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#fad9d5;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#ae4132;shadow=1;swimlaneLine=1;" parent="gvd6-eIm7HliN0uxU8-W-3" vertex="1">
+          <mxGeometry x="110" y="604" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-16" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#fad9d5;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#ae4132;shadow=1;swimlaneLine=1;" parent="gvd6-eIm7HliN0uxU8-W-3" vertex="1">
+          <mxGeometry x="110" y="625" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-23" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;CSP ( Cloud Service Provider ) - 대구센터&lt;br&gt;업체 : NHN, KT, SAMSUNG&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#FAE5C7;fontColor=#143642;strokeColor=#0F8B8D;rounded=1;strokeWidth=4;labelBackgroundColor=none;shadow=1;startSize=50;" parent="gvd6-eIm7HliN0uxU8-W-1" vertex="1">
+          <mxGeometry x="540" y="-2720" width="292" height="260" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="VPC" c4Type="SystemScopeBoundary" c4Application="EASYCERTI" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="gvd6-eIm7HliN0uxU8-W-24">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#FAE5C7;strokeColor=#0F8B8D;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];gradientDirection=radial;glass=0;shadow=1;fontColor=#143642;" parent="gvd6-eIm7HliN0uxU8-W-23" vertex="1">
+            <mxGeometry x="39" y="73" width="210" height="171" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="PSM-SAAS" c4Type="SystemScopeBoundary" c4Application="EASYCERTI" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="gvd6-eIm7HliN0uxU8-W-25">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#FAE5C7;strokeColor=#0F8B8D;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];gradientDirection=radial;glass=0;shadow=1;fontColor=#143642;" parent="gvd6-eIm7HliN0uxU8-W-23" vertex="1">
+            <mxGeometry x="92" y="96" width="136" height="108" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-26" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px; font-size: 16px;&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px; line-height: 170%; font-size: 16px;&quot;&gt;NIA DATA&amp;nbsp; 확산사업&lt;br&gt;&lt;div style=&quot;line-height: 170%; font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 16px;&quot;&gt;- PSM-SAAS 구성도&lt;br&gt;&amp;nbsp; &amp;nbsp;+ 대구센터 CSP 구축시&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=270;height=100;align=left;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontStyle=1;fontSize=16;fontFamily=Georgia;rounded=1;shadow=1;swimlaneFillColor=none;strokeWidth=4;labelBackgroundColor=none;fontColor=#143642;" parent="gvd6-eIm7HliN0uxU8-W-1" vertex="1">
+          <mxGeometry x="40" y="-2730" width="1340" height="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-27" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#FAE5C7;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#0F8B8D;shadow=1;swimlaneLine=1;" parent="gvd6-eIm7HliN0uxU8-W-1" vertex="1">
+          <mxGeometry x="430" y="-2004" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-28" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#FAE5C7;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#0F8B8D;shadow=1;swimlaneLine=1;" parent="gvd6-eIm7HliN0uxU8-W-1" vertex="1">
+          <mxGeometry x="430" y="-1984" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-29" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#FAE5C7;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#0F8B8D;shadow=1;swimlaneLine=1;" parent="gvd6-eIm7HliN0uxU8-W-1" vertex="1">
+          <mxGeometry x="430" y="-1963" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-30" value="공무원 연금공단 대구 Region" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;strokeWidth=4;labelBackgroundColor=none;shadow=1;" parent="gvd6-eIm7HliN0uxU8-W-1" vertex="1">
+          <mxGeometry x="873" y="-2450" width="470" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-31" value="망연계" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="gvd6-eIm7HliN0uxU8-W-30" vertex="1">
+          <mxGeometry x="19" y="233" width="431" height="60" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="내부망" c4Type="SystemScopeBoundary" c4Application="내부망" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="gvd6-eIm7HliN0uxU8-W-32">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;gradientDirection=west;" parent="gvd6-eIm7HliN0uxU8-W-30" vertex="1">
+            <mxGeometry x="19" y="308" width="431" height="390" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="개인정보처리시스템-01" c4Type="SystemScopeBoundary" c4Application="WAS" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="gvd6-eIm7HliN0uxU8-W-33">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;gradientDirection=north;" parent="gvd6-eIm7HliN0uxU8-W-30" vertex="1">
+            <mxGeometry x="241" y="325" width="190" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-34" value="AGENT" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="gvd6-eIm7HliN0uxU8-W-30" vertex="1">
+          <mxGeometry x="255" y="340" width="90" height="40" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="개인정보처리시스템-02" c4Type="SystemScopeBoundary" c4Application="WAS" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="gvd6-eIm7HliN0uxU8-W-35">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;gradientDirection=north;" parent="gvd6-eIm7HliN0uxU8-W-30" vertex="1">
+            <mxGeometry x="241" y="455" width="190" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-36" value="AGENT" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="gvd6-eIm7HliN0uxU8-W-30" vertex="1">
+          <mxGeometry x="255" y="470" width="90" height="40" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="수집시스템" c4Type="SystemScopeBoundary" c4Application="Collector" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="gvd6-eIm7HliN0uxU8-W-37">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#FAE5C7;strokeColor=#0F8B8D;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;gradientDirection=north;strokeWidth=1;" parent="gvd6-eIm7HliN0uxU8-W-30" vertex="1">
+            <mxGeometry x="41" y="323" width="110" height="325" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-38" value="FILE" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;shadow=1;" parent="gvd6-eIm7HliN0uxU8-W-30" vertex="1">
+          <mxGeometry x="60" y="343" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-39" value="FILE" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;shadow=1;" parent="gvd6-eIm7HliN0uxU8-W-30" vertex="1">
+          <mxGeometry x="60" y="393" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-40" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#dae8fc;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#6c8ebf;shadow=1;" parent="gvd6-eIm7HliN0uxU8-W-30" vertex="1">
+          <mxGeometry x="316" y="584" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-41" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#dae8fc;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#6c8ebf;shadow=1;" parent="gvd6-eIm7HliN0uxU8-W-30" vertex="1">
+          <mxGeometry x="316" y="604" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-42" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#dae8fc;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#6c8ebf;shadow=1;" parent="gvd6-eIm7HliN0uxU8-W-30" vertex="1">
+          <mxGeometry x="316" y="625" width="20" height="20" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="WEB" c4Type="SystemScopeBoundary" c4Application="DMZ" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="gvd6-eIm7HliN0uxU8-W-43">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;" parent="gvd6-eIm7HliN0uxU8-W-30" vertex="1">
+            <mxGeometry x="19" y="40" width="430" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="중계시스템" c4Type="SystemScopeBoundary" c4Application="Repeater" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="gvd6-eIm7HliN0uxU8-W-17">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#FAE5C7;strokeColor=#0F8B8D;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;gradientDirection=north;" parent="gvd6-eIm7HliN0uxU8-W-30" vertex="1">
+            <mxGeometry x="90" y="67" width="290" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-18" value="FILE" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;shadow=1;" parent="gvd6-eIm7HliN0uxU8-W-30" vertex="1">
+          <mxGeometry x="109" y="87" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-19" value="FILE" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;shadow=1;" parent="gvd6-eIm7HliN0uxU8-W-30" vertex="1">
+          <mxGeometry x="194" y="87" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-20" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#FAE5C7;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#0F8B8D;shadow=1;" parent="gvd6-eIm7HliN0uxU8-W-30" vertex="1">
+          <mxGeometry x="280" y="97" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-21" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#FAE5C7;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#0F8B8D;shadow=1;" parent="gvd6-eIm7HliN0uxU8-W-30" vertex="1">
+          <mxGeometry x="304" y="97" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-22" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#FAE5C7;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#0F8B8D;shadow=1;" parent="gvd6-eIm7HliN0uxU8-W-30" vertex="1">
+          <mxGeometry x="328" y="97" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-48" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=3;shape=mxgraph.lean_mapping.batched_kanban;rotation=180;direction=south;flipH=0;fillColor=#FAE5C7;strokeColor=#0F8B8D;rounded=1;labelBackgroundColor=none;shadow=1;" parent="gvd6-eIm7HliN0uxU8-W-30" vertex="1">
+          <mxGeometry x="90" y="173" width="80" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-44" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=4;shape=mxgraph.lean_mapping.batched_kanban;rotation=180;direction=east;flipH=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;rounded=1;labelBackgroundColor=none;fontColor=#143642;shadow=1;flipV=1;" parent="gvd6-eIm7HliN0uxU8-W-1" vertex="1">
+          <mxGeometry x="483" y="-1885" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-45" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#FAE5C7;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#0F8B8D;shadow=1;" parent="gvd6-eIm7HliN0uxU8-W-1" vertex="1">
+          <mxGeometry x="959" y="-2004" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-46" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#FAE5C7;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#0F8B8D;shadow=1;" parent="gvd6-eIm7HliN0uxU8-W-1" vertex="1">
+          <mxGeometry x="959" y="-1984" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-47" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#FAE5C7;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#0F8B8D;shadow=1;" parent="gvd6-eIm7HliN0uxU8-W-1" vertex="1">
+          <mxGeometry x="959" y="-1963" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-49" value="" style="shape=filledEdge;curved=0;rounded=1;fixDash=1;endArrow=none;strokeWidth=10;fillColor=#FAE5C7;edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;shadow=1;" parent="gvd6-eIm7HliN0uxU8-W-1" edge="1">
+          <mxGeometry width="60" height="40" relative="1" as="geometry">
+            <mxPoint x="871" y="-2338" as="sourcePoint" />
+            <mxPoint x="831" y="-2568" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="861" y="-2338" />
+              <mxPoint x="861" y="-2568" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-50" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=4;labelBackgroundColor=none;strokeColor=#ae4132;fontColor=default;shadow=1;swimlaneLine=1;fillColor=#fad9d5;" parent="gvd6-eIm7HliN0uxU8-W-1" source="gvd6-eIm7HliN0uxU8-W-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="-2030" as="sourcePoint" />
+            <mxPoint x="410" y="-2090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-51" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=4;labelBackgroundColor=none;strokeColor=#ae4132;fontColor=default;shadow=1;swimlaneLine=1;fillColor=#fad9d5;" parent="gvd6-eIm7HliN0uxU8-W-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="-1961" as="sourcePoint" />
+            <mxPoint x="411" y="-1961" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-52" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=4;labelBackgroundColor=none;strokeColor=#ae4132;fontColor=default;shadow=1;swimlaneLine=1;fillColor=#fad9d5;" parent="gvd6-eIm7HliN0uxU8-W-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="207" y="-1858" as="sourcePoint" />
+            <mxPoint x="408" y="-1858" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-53" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=4;labelBackgroundColor=none;strokeColor=#6c8ebf;fontColor=default;shadow=1;fillColor=#dae8fc;" parent="gvd6-eIm7HliN0uxU8-W-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1130" y="-2090" as="sourcePoint" />
+            <mxPoint x="995.9999999999991" y="-2090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-54" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=4;labelBackgroundColor=none;strokeColor=#6c8ebf;fontColor=default;shadow=1;fillColor=#dae8fc;" parent="gvd6-eIm7HliN0uxU8-W-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1130" y="-1959" as="sourcePoint" />
+            <mxPoint x="995.9999999999991" y="-1959" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-55" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=4;labelBackgroundColor=none;strokeColor=#6c8ebf;fontColor=default;shadow=1;fillColor=#dae8fc;" parent="gvd6-eIm7HliN0uxU8-W-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1131" y="-1860" as="sourcePoint" />
+            <mxPoint x="996.9999999999991" y="-1860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gvd6-eIm7HliN0uxU8-W-63" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=1;endSize=8;startSize=8;strokeWidth=4;fillColor=#FAE5C7;strokeColor=#0F8B8D;labelBackgroundColor=none;fontColor=default;shadow=1;" parent="gvd6-eIm7HliN0uxU8-W-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="-2339" as="sourcePoint" />
+            <mxPoint x="770" y="-2570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="860" y="-2449" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A1JU__1Ft0o07ZwIuPTW-0" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;strokeColor=#6c8ebf;shadow=1;flipH=1;fillColor=#dae8fc;" parent="gvd6-eIm7HliN0uxU8-W-1" vertex="1">
+          <mxGeometry x="845" y="-2520.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A1JU__1Ft0o07ZwIuPTW-1" value="IP-SEC&lt;br&gt;불필요" style="html=1;shadow=1;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#33A64C;strokeWidth=3;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=16;spacing=5;flipH=1;fontColor=#33A64C;" parent="gvd6-eIm7HliN0uxU8-W-1" vertex="1">
+          <mxGeometry x="888" y="-2531" width="91" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="3OvudjUD4Wfpqy8rXaVC-0" value="&lt;h1&gt;대구센터 구축시&lt;/h1&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;- 추가적으로 IP-SEC 구축 필요 없음&lt;br&gt;&lt;br&gt;- 입주 선정된 CSP 업체에 NAVER Ncloud 없음&lt;br&gt;&lt;br&gt;- 입주 선정된 CSP 업체로 새롭게 개발하여, &lt;br&gt;CSAP 신규인증 진행 해야함.&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="gvd6-eIm7HliN0uxU8-W-1" vertex="1">
+          <mxGeometry x="70" y="-2628" width="370" height="168" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="상록회관구축-네트워크-IPSEC" id="dv-QLDVI84JqoSj1m2pe">
+    <mxGraphModel dx="1418" dy="3600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
+      <root>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-0" />
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-1" parent="4v-V6_IZHGmnpCoF4TRB-0" />
+        <mxCell id="iHN1S2dKGqD-KPZn3IDe-0" value="" style="rounded=0;whiteSpace=wrap;html=1;textOpacity=80;opacity=50;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="4v-V6_IZHGmnpCoF4TRB-1">
+          <mxGeometry x="545" y="-2670" width="460" height="210" as="geometry" />
+        </mxCell>
+        <object c4Type="VPN" c4Container="VPN" c4Technology="전용망" c4Description="서울과 대구간 내부망 통신" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" placeholders="1" id="4v-V6_IZHGmnpCoF4TRB-2">
+          <mxCell style="shape=cylinder3;size=15;direction=south;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;labelBackgroundColor=none;fillColor=#dae8fc;fontSize=12;align=center;strokeColor=#6c8ebf;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=1;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-1" vertex="1">
+            <mxGeometry x="573" y="-2055" width="277" height="260" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-3" value="공무원 연금공단 서울 Region" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;rounded=1;strokeWidth=4;labelBackgroundColor=none;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-1" vertex="1">
+          <mxGeometry x="70" y="-2450" width="470" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-4" value="망연계" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;labelBackgroundColor=none;fillColor=#fad9d5;strokeColor=#ae4132;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-3" vertex="1">
+          <mxGeometry x="19" y="233" width="431" height="60" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="WEB" c4Type="SystemScopeBoundary" c4Application="DMZ" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="4v-V6_IZHGmnpCoF4TRB-5">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#fad9d5;strokeColor=#ae4132;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-3" vertex="1">
+            <mxGeometry x="20" y="40" width="430" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="내부망" c4Type="SystemScopeBoundary" c4Application="내부망" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="4v-V6_IZHGmnpCoF4TRB-6">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#fad9d5;strokeColor=#ae4132;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;gradientDirection=east;" parent="4v-V6_IZHGmnpCoF4TRB-3" vertex="1">
+            <mxGeometry x="19" y="308" width="431" height="390" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="개인정보처리시스템-01" c4Type="SystemScopeBoundary" c4Application="WAS" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="4v-V6_IZHGmnpCoF4TRB-7">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#fad9d5;strokeColor=#ae4132;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;gradientDirection=north;" parent="4v-V6_IZHGmnpCoF4TRB-3" vertex="1">
+            <mxGeometry x="35" y="325" width="190" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-8" value="AGENT" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fad9d5;strokeColor=#ae4132;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-3" vertex="1">
+          <mxGeometry x="49" y="340" width="90" height="40" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="개인정보처리시스템-02" c4Type="SystemScopeBoundary" c4Application="WAS" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="4v-V6_IZHGmnpCoF4TRB-9">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#fad9d5;strokeColor=#ae4132;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;gradientDirection=north;" parent="4v-V6_IZHGmnpCoF4TRB-3" vertex="1">
+            <mxGeometry x="35" y="455" width="190" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-10" value="AGENT" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fad9d5;strokeColor=#ae4132;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-3" vertex="1">
+          <mxGeometry x="49" y="470" width="90" height="40" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="수집시스템" c4Type="SystemScopeBoundary" c4Application="Collector" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="4v-V6_IZHGmnpCoF4TRB-11">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#FAE5C7;strokeColor=#0F8B8D;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;gradientDirection=north;strokeWidth=1;" parent="4v-V6_IZHGmnpCoF4TRB-3" vertex="1">
+            <mxGeometry x="317" y="323" width="110" height="325" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-12" value="FILE" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-3" vertex="1">
+          <mxGeometry x="336" y="343" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-13" value="FILE" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-3" vertex="1">
+          <mxGeometry x="336" y="393" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-14" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#fad9d5;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#ae4132;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-3" vertex="1">
+          <mxGeometry x="110" y="584" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-15" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#fad9d5;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#ae4132;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-3" vertex="1">
+          <mxGeometry x="110" y="604" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-16" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#fad9d5;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#ae4132;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-3" vertex="1">
+          <mxGeometry x="110" y="625" width="20" height="20" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="중계시스템" c4Type="SystemScopeBoundary" c4Application="Repeater" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="4v-V6_IZHGmnpCoF4TRB-17">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#FAE5C7;strokeColor=#0F8B8D;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;gradientDirection=north;" parent="4v-V6_IZHGmnpCoF4TRB-3" vertex="1">
+            <mxGeometry x="139" y="60" width="290" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-18" value="FILE" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-3" vertex="1">
+          <mxGeometry x="158" y="80" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-19" value="FILE" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-3" vertex="1">
+          <mxGeometry x="243" y="80" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-20" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#FAE5C7;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#0F8B8D;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-3" vertex="1">
+          <mxGeometry x="329" y="90" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-21" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#FAE5C7;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#0F8B8D;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-3" vertex="1">
+          <mxGeometry x="353" y="90" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-22" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#FAE5C7;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#0F8B8D;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-3" vertex="1">
+          <mxGeometry x="377" y="90" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-23" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;CSP ( Cloud Service Provider ) -- NAVER NCLOUD&lt;br&gt;대구센터에 입주하지 않음.&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#FAE5C7;fontColor=#143642;strokeColor=#0F8B8D;rounded=1;strokeWidth=4;labelBackgroundColor=none;shadow=1;startSize=40;" parent="4v-V6_IZHGmnpCoF4TRB-1" vertex="1">
+          <mxGeometry x="598" y="-2720" width="650" height="250" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="VPC" c4Type="SystemScopeBoundary" c4Application="EASYCERTI" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="4v-V6_IZHGmnpCoF4TRB-24">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#FAE5C7;strokeColor=#0F8B8D;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];gradientDirection=radial;glass=0;shadow=1;fontColor=#143642;" parent="4v-V6_IZHGmnpCoF4TRB-23" vertex="1">
+            <mxGeometry x="422" y="61" width="210" height="171" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="PSM-SAAS" c4Type="SystemScopeBoundary" c4Application="EASYCERTI" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="brWoZu4VFoBR7unibFlU-0">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#FAE5C7;strokeColor=#0F8B8D;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];gradientDirection=radial;glass=0;shadow=1;fontColor=#143642;" parent="4v-V6_IZHGmnpCoF4TRB-23" vertex="1">
+            <mxGeometry x="475" y="84" width="136" height="108" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-25" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px; font-size: 16px;&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px; line-height: 170%; font-size: 16px;&quot;&gt;NIA DATA&amp;nbsp; 확산사업&lt;br&gt;&lt;div style=&quot;line-height: 170%; font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 16px;&quot;&gt;- PSM-SAAS 구성도&lt;br&gt;&amp;nbsp; &amp;nbsp;+ Ncloud 구축시&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=260;height=90;align=left;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontStyle=1;fontSize=16;fontFamily=Georgia;rounded=1;shadow=1;swimlaneFillColor=none;strokeWidth=4;labelBackgroundColor=none;fontColor=#143642;" parent="4v-V6_IZHGmnpCoF4TRB-1" vertex="1">
+          <mxGeometry x="40" y="-2730" width="1340" height="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-26" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#FAE5C7;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#0F8B8D;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-1" vertex="1">
+          <mxGeometry x="430" y="-2004" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-27" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#FAE5C7;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#0F8B8D;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-1" vertex="1">
+          <mxGeometry x="430" y="-1984" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-28" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#FAE5C7;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#0F8B8D;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-1" vertex="1">
+          <mxGeometry x="430" y="-1963" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-29" value="공무원 연금공단 대구 Region" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;strokeWidth=4;labelBackgroundColor=none;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-1" vertex="1">
+          <mxGeometry x="873" y="-2450" width="470" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-30" value="망연계" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-29" vertex="1">
+          <mxGeometry x="19" y="233" width="431" height="60" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="내부망" c4Type="SystemScopeBoundary" c4Application="내부망" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="4v-V6_IZHGmnpCoF4TRB-31">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;gradientDirection=west;" parent="4v-V6_IZHGmnpCoF4TRB-29" vertex="1">
+            <mxGeometry x="19" y="308" width="431" height="390" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="개인정보처리시스템-01" c4Type="SystemScopeBoundary" c4Application="WAS" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="4v-V6_IZHGmnpCoF4TRB-32">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;gradientDirection=north;" parent="4v-V6_IZHGmnpCoF4TRB-29" vertex="1">
+            <mxGeometry x="241" y="325" width="190" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-33" value="AGENT" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-29" vertex="1">
+          <mxGeometry x="255" y="340" width="90" height="40" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="개인정보처리시스템-02" c4Type="SystemScopeBoundary" c4Application="WAS" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="4v-V6_IZHGmnpCoF4TRB-34">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;gradientDirection=north;" parent="4v-V6_IZHGmnpCoF4TRB-29" vertex="1">
+            <mxGeometry x="241" y="455" width="190" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-35" value="AGENT" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-29" vertex="1">
+          <mxGeometry x="255" y="470" width="90" height="40" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="수집시스템" c4Type="SystemScopeBoundary" c4Application="Collector" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="4v-V6_IZHGmnpCoF4TRB-36">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#FAE5C7;strokeColor=#0F8B8D;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;gradientDirection=north;strokeWidth=1;" parent="4v-V6_IZHGmnpCoF4TRB-29" vertex="1">
+            <mxGeometry x="41" y="323" width="110" height="325" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-37" value="FILE" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-29" vertex="1">
+          <mxGeometry x="60" y="343" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-38" value="FILE" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-29" vertex="1">
+          <mxGeometry x="60" y="393" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-39" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#dae8fc;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#6c8ebf;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-29" vertex="1">
+          <mxGeometry x="316" y="584" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-40" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#dae8fc;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#6c8ebf;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-29" vertex="1">
+          <mxGeometry x="316" y="604" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-41" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#dae8fc;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#6c8ebf;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-29" vertex="1">
+          <mxGeometry x="316" y="625" width="20" height="20" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="WEB" c4Type="SystemScopeBoundary" c4Application="DMZ" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="4v-V6_IZHGmnpCoF4TRB-42">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-29" vertex="1">
+            <mxGeometry x="19" y="40" width="430" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-43" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=4;shape=mxgraph.lean_mapping.batched_kanban;rotation=180;direction=west;flipH=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;rounded=1;labelBackgroundColor=none;fontColor=#143642;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-1" vertex="1">
+          <mxGeometry x="485" y="-1885" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-44" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#FAE5C7;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#0F8B8D;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-1" vertex="1">
+          <mxGeometry x="959" y="-2004" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-45" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#FAE5C7;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#0F8B8D;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-1" vertex="1">
+          <mxGeometry x="959" y="-1984" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-46" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#FAE5C7;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#0F8B8D;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-1" vertex="1">
+          <mxGeometry x="959" y="-1963" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-47" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=3;shape=mxgraph.lean_mapping.batched_kanban;rotation=180;direction=south;flipH=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;rounded=1;labelBackgroundColor=none;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-1" vertex="1">
+          <mxGeometry x="410" y="-2287" width="80" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-48" value="" style="shape=filledEdge;curved=0;rounded=1;fixDash=1;endArrow=none;strokeWidth=10;fillColor=#FAE5C7;edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-1" edge="1">
+          <mxGeometry width="60" height="40" relative="1" as="geometry">
+            <mxPoint x="540" y="-2340" as="sourcePoint" />
+            <mxPoint x="600" y="-2570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="-2340" />
+              <mxPoint x="570" y="-2570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-50" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=4;labelBackgroundColor=none;strokeColor=#ae4132;fontColor=default;shadow=1;fillColor=#fad9d5;" parent="4v-V6_IZHGmnpCoF4TRB-1" source="4v-V6_IZHGmnpCoF4TRB-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="-2030" as="sourcePoint" />
+            <mxPoint x="410" y="-2090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-51" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=4;labelBackgroundColor=none;strokeColor=#ae4132;fontColor=default;shadow=1;fillColor=#fad9d5;" parent="4v-V6_IZHGmnpCoF4TRB-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="-1961" as="sourcePoint" />
+            <mxPoint x="411" y="-1961" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-52" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=4;labelBackgroundColor=none;strokeColor=#ae4132;fontColor=default;shadow=1;fillColor=#fad9d5;" parent="4v-V6_IZHGmnpCoF4TRB-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="207" y="-1858" as="sourcePoint" />
+            <mxPoint x="408" y="-1858" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-53" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=4;labelBackgroundColor=none;strokeColor=#6c8ebf;fontColor=default;shadow=1;fillColor=#dae8fc;" parent="4v-V6_IZHGmnpCoF4TRB-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1130" y="-2090" as="sourcePoint" />
+            <mxPoint x="995.9999999999991" y="-2090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-54" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=4;labelBackgroundColor=none;strokeColor=#6c8ebf;fontColor=default;shadow=1;fillColor=#dae8fc;" parent="4v-V6_IZHGmnpCoF4TRB-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1130" y="-1959" as="sourcePoint" />
+            <mxPoint x="995.9999999999991" y="-1959" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-55" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=4;labelBackgroundColor=none;strokeColor=#6c8ebf;fontColor=default;shadow=1;fillColor=#dae8fc;" parent="4v-V6_IZHGmnpCoF4TRB-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1131" y="-1860" as="sourcePoint" />
+            <mxPoint x="996.9999999999991" y="-1860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Classic Server" c4Type="SystemScopeBoundary" c4Application="EASYCERTI" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="brWoZu4VFoBR7unibFlU-1">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#FAE5C7;strokeColor=#0F8B8D;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];gradientDirection=radial;glass=0;shadow=1;fontColor=#143642;" parent="4v-V6_IZHGmnpCoF4TRB-1" vertex="1">
+            <mxGeometry x="613" y="-2661" width="381" height="174" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="중계시스템" c4Type="SystemScopeBoundary" c4Application="Repeater" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="brWoZu4VFoBR7unibFlU-4">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#FAE5C7;strokeColor=#0F8B8D;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;glass=0;fontColor=#143642;gradientDirection=north;" parent="4v-V6_IZHGmnpCoF4TRB-1" vertex="1">
+            <mxGeometry x="681" y="-2641" width="290" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="brWoZu4VFoBR7unibFlU-5" value="FILE" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-1" vertex="1">
+          <mxGeometry x="700" y="-2621" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="brWoZu4VFoBR7unibFlU-6" value="FILE" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-1" vertex="1">
+          <mxGeometry x="785" y="-2621" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="brWoZu4VFoBR7unibFlU-7" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#0F8B8D;fontColor=#143642;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-1" vertex="1">
+          <mxGeometry x="871" y="-2611" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="brWoZu4VFoBR7unibFlU-8" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#0F8B8D;fontColor=#143642;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-1" vertex="1">
+          <mxGeometry x="895" y="-2611" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="brWoZu4VFoBR7unibFlU-9" value="" style="shape=waypoint;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;rounded=1;labelBackgroundColor=none;strokeColor=#0F8B8D;fontColor=#143642;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-1" vertex="1">
+          <mxGeometry x="919" y="-2611" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4v-V6_IZHGmnpCoF4TRB-49" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=1;endSize=8;startSize=8;strokeWidth=4;fillColor=#FAE5C7;strokeColor=#0F8B8D;labelBackgroundColor=none;fontColor=default;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="-2340" as="sourcePoint" />
+            <mxPoint x="690" y="-2570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="-2450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gB0ijV010jHVUzZ-Gn9x-0" value="IP-SEC&lt;br&gt;필요" style="html=1;shadow=1;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#33A64C;strokeWidth=3;fillColor=none;fontColor=#33A64C;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=16;spacing=5;" parent="4v-V6_IZHGmnpCoF4TRB-1" vertex="1">
+          <mxGeometry x="450" y="-2542" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gB0ijV010jHVUzZ-Gn9x-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeWidth=4;strokeColor=#33A64C;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-1" vertex="1">
+          <mxGeometry x="550" y="-2523" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gB0ijV010jHVUzZ-Gn9x-2" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=4;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;shadow=1;" parent="4v-V6_IZHGmnpCoF4TRB-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="971" y="-2585" as="sourcePoint" />
+            <mxPoint x="1080" y="-2585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WRb7XJPCFDuTYyQr-5DM-2" value="&lt;h1&gt;Naver Ncloud 구축시&lt;/h1&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;- 추가적으로 IP-SEC 구축&lt;br&gt;&lt;br&gt;- 공공기관용 Ncloud 에서는 VPC 에서의 IP-SEC 지원안함.&lt;br&gt;&lt;br&gt;- classic 에서 IP-SEC 구성후 VPC 로 넘겨야 함.&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="4v-V6_IZHGmnpCoF4TRB-1" vertex="1">
+          <mxGeometry x="60" y="-2628" width="370" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="iHN1S2dKGqD-KPZn3IDe-1" value="&lt;i style=&quot;font-size: 19px;&quot;&gt;&lt;font color=&quot;#cc0000&quot;&gt;추가&lt;br&gt;구축&lt;/font&gt;&lt;/i&gt;" style="html=1;shadow=1;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#EA6B66;strokeWidth=3;fillColor=none;fontColor=#EA6B66;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=16;spacing=5;" vertex="1" parent="4v-V6_IZHGmnpCoF4TRB-1">
+          <mxGeometry x="510" y="-2700" width="60" height="62" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
