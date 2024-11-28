@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
   <diagram name="페이지-1" id="hovfNrs_4hIEojhtcKpi">
-    <mxGraphModel dx="1026" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1853" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -100,6 +100,9 @@
         </mxCell>
         <mxCell id="2fR38SkrZOBa1mg_BSXp-31" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;RAG&lt;/h1&gt;&lt;p&gt;- Data 구축시 경량화 model 사용가능&lt;br&gt;- Hallucination 방지&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;shadow=1;glass=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="44" y="40" width="206" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2fR38SkrZOBa1mg_BSXp-32" value="" style="swimlane;startSize=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="10" width="1090" height="860" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
